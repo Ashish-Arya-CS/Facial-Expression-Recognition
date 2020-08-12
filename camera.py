@@ -8,7 +8,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
     def __init__(self):
-        self.video = cv2.VideoCapture(r"C:\Users\KIIT\Project\videos/facial_exp.mkv")
+        self.video = cv2.VideoCapture(r"C:\Users\KIIT\Project\videos\facial_exp.mkv")
 
     def __del__(self):
         self.video.release()
